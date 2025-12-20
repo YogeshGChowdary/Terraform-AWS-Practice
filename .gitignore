@@ -17,8 +17,8 @@ override.tf.json
 *_override.tf.json
 
 # Variable files containing secrets
-*.tfvars
-*.tfvars.json
+#*.tfvars
+#*.tfvars.json
 
 # Sensitive HCL files
 *.hcl
@@ -29,3 +29,5 @@ override.tf.json
 # CLI config files
 .terraformrc
 terraform.rc
+
+*.pem
